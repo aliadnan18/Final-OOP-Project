@@ -350,7 +350,7 @@ public:
         );
     } else {
         playerEntity->setPosition(currentFloor->entrancePosition);
-        // ❌ NO HP RESET HERE
+       
     }
 
     currentFloor->revealArea(
